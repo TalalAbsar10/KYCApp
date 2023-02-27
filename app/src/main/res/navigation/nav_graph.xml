@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/getCurrenciesFragment">
+
+    <fragment
+        android:id="@+id/getCurrenciesFragment"
+        android:name="com.example.kycapp.presentation.KYCFragment"
+        android:label="getCurrenciesFragment"
+        tools:layout="@layout/fragment_kyc">
+
+<!--        <action-->
+<!--            android:id="@+id/action_getCurrenciesFragment_to_getCurrenciesCalculationFragment"-->
+<!--            app:destination="@id/getCurrenciesCalculationFragment" />-->
+    </fragment>
+</navigation>

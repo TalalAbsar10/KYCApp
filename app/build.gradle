@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.kycapp'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.kycapp"
         minSdk 23
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -30,6 +30,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    buildFeatures{
+        dataBinding true
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -47,4 +52,8 @@ dependencies {
     implementation ('com.regula.documentreader:api:+@aar'){
         transitive = true
     }
+
+    //Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 }
