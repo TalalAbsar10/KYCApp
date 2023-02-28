@@ -4,7 +4,7 @@ This is a KYC Application; document scanning can be done by camera and gallery b
 
 **Download the apk file or download and run the project.**
 
-#Application process:<br /> 
+##Application process:<br /> 
 -When the application starts, it downloads the database which takes 1 to 2 minutes for downloading, it is only a one time download when the application first 
 installs to the device, please wait until it completes.<br /> 
 -Once the database is downloaded, it will initialize the document reader.<br /> 
