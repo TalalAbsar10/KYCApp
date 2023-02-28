@@ -4,7 +4,7 @@ This is a KYC Application; document scanning can be done by camera and gallery b
 
 **Download the apk file or download and run the project.**
 
-##Application process:<br /> 
+## Application process:<br /> 
 -When the application starts, it downloads the database which takes 1 to 2 minutes for downloading, it is only a one time download when the application first 
 installs to the device, please wait until it completes.<br /> 
 -Once the database is downloaded, it will initialize the document reader.<br /> 
@@ -12,12 +12,12 @@ installs to the device, please wait until it completes.<br />
 
 **Document scanning can be done through below steps.**<br /> 
 
-##Scan from gallery<br /> 
+## Scan from gallery<br /> 
 -Once this button is clicked, it will ask the user to grant the permission to access the storage, please allow it.<br /> 
 -Once the permission is granted, user can select any document to scan.<br /> 
 -Scanning result can be seen on the screen with the user details.<br /> 
  
-##Scan from Camera<br /> 
+## Scan from Camera<br /> 
 -Once this button is clicked, user will be asked to grant the permission to use the camera, please allow it.<br /> 
 -Once the camera is ready, you have to place the document/ID card in the designated area with white border.<br /> 
 -Upon successful scanning, the border will turn green and the user will ask to flip the document/ID card, it will again turn white and will turn green upon 
