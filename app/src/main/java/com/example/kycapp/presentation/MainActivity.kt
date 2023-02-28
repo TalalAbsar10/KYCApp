@@ -144,7 +144,7 @@ class MainActivity : AppCompatActivity(), CallBacksInterface {
     @SuppressLint("MissingPermission")
     private val completion =
         IDocumentReaderCompletion { action, results, error ->
-            //processing is finished, all results are ready
+            //Processing is finished, all results are ready
             if (action == DocReaderAction.COMPLETE || action == DocReaderAction.TIMEOUT) {
                 dismissDialog()
                 kycFragment.displayResults(results)
@@ -216,8 +216,8 @@ class MainActivity : AppCompatActivity(), CallBacksInterface {
         }
     }
 
-    // creates and starts image browsing intent
-    // results will be handled in onActivityResult method
+    // Creates and starts image browsing intent
+    // Results will be handled in onActivityResult method
     private fun createImageBrowsingRequest() {
         val intent = Intent()
         intent.type = "image/*"

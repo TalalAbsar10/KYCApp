@@ -2,4 +2,15 @@
     <string name="app_name">KYCApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name: </string>
+    <string name="dob">Date Of Birth: </string>
+    <string name="gender">Gender: </string>
+    <string name="nationality">Nationality: </string>
+    <string name="doc_number">Document Number: </string>
+    <string name="date_of_issue">Date Of Issue: </string>
+    <string name="date_of_expiry">Date Of Expiry: </string>
+    <string name="picture">Picture: </string>
+    <string name="scan_from_scanner">Scan From Camera</string>
+    <string name="scan_from_gallery">Scan from gallery</string>
+    <string name="document_image">Document Image: </string>
 </resources>

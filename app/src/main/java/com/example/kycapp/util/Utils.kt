@@ -55,7 +55,6 @@ object Utils {
         return BitmapFactory.decodeStream(`is`, null, options)
     }
 
-    // see https://developer.android.com/topic/performance/graphics/load-bitmap.html
     private fun calculateInSampleSize(
         options: BitmapFactory.Options,
         bitmapWidth: Int,

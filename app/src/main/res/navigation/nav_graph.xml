@@ -10,9 +10,5 @@
         android:name="com.example.kycapp.presentation.KYCFragment"
         android:label="getCurrenciesFragment"
         tools:layout="@layout/fragment_kyc">
-
-<!--        <action-->
-<!--            android:id="@+id/action_getCurrenciesFragment_to_getCurrenciesCalculationFragment"-->
-<!--            app:destination="@id/getCurrenciesCalculationFragment" />-->
     </fragment>
 </navigation>
